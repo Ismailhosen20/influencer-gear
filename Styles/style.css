@@ -25,7 +25,7 @@ header {
     color: #3A3A3A;
     font-size: 16px;
     display: flex;
-   list-style-type: none;
+    list-style-type: none;
 }
 
 .button li {
@@ -70,6 +70,27 @@ button {
 .photo {
     width: 475px;
     height: 455px;
-    border: 1px solid rgb(218, 216, 216);
+    border: 1px solid rgb(228, 224, 224);
     border-radius: 50%;
+}
+
+/* --------------
+    Logo designs
+    ----------------- */
+.logos {
+    display: grid;
+    justify-content: center;
+    margin-top: 69px;
+}
+
+.logo {
+    width: 1110px;
+    height: 110px;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.logo li {
+    margin-left: 60px;
 }
